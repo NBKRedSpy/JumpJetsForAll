@@ -27,7 +27,8 @@
   ],
 
   "Settings": {
-    "JumpJetCount":  4,
+    "JumpJetCount": 4,
+    "IncludeMechsWithJumpJets": false,
   }
 
 }

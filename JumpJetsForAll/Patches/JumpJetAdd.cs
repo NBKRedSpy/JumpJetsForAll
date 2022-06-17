@@ -56,7 +56,7 @@ namespace JumpJetsForAll.Patches
                     if (MaxJumpjetPropertyInfo == null) throw new NullReferenceException("MaxJumpjets not found");
                 }
 
-                if (___resource.MaxJumpjets == 0)
+                if (Core.ModSettings.IncludeMechsWithJumpJets || ___resource.MaxJumpjets == 0)
                 {
                     MaxJumpjetPropertyInfo.SetValue(___resource, Core.ModSettings.JumpJetCount);
                 }
