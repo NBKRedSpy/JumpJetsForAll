@@ -13,5 +13,11 @@ namespace JumpJetsForAll
         /// </summary>
         public int JumpJetCount { get; set; } = 4;
 
+        /// <summary>
+        /// If true, also modify mechs that already have jump jets.
+        /// </summary>
+        public bool IncludeMechsWithJumpJets { get; set; } = false;
+
+
     }
 }
