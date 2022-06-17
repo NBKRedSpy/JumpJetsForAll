@@ -17,6 +17,4 @@ If the mod is disabled or removed, modified mechs will retain any mounted jump j
 |Setting| Description|
 |--|--|
 |JumpJetCount|The number of jump jets to allow on the mechs.  Defaults to 4|
-|IncludeMechsWithJumpJets| If true, will also include mechs which already have jump jets.  Defaults to false|
-
-
+|IncludeMechsWithJumpJets| If false, does not include mechs which already support jump jets.  Defaults to false|
